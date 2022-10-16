@@ -1,0 +1,3 @@
+﻿  hap3.c
+C:\Workspace\C_Practice\exam\Project4\Project4\hap3.c(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project4.vcxproj -> C:\Workspace\C_Practice\exam\Project4\x64\Debug\Project4.exe
