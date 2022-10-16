@@ -1,0 +1,4 @@
+﻿  salary.c
+C:\Workspace\C_Practice\C_Practice\exam\Project8\Project8\salary.c(9,1): warning C4305: '초기화 중': 'double'에서 'const float'(으)로 잘립니다.
+C:\Workspace\C_Practice\C_Practice\exam\Project8\Project8\salary.c(12,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project8.vcxproj -> C:\Workspace\C_Practice\C_Practice\exam\Project8\x64\Debug\Project8.exe
