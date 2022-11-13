@@ -1,0 +1,17 @@
+# Visual Studio
+*.sln
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+Debug/
+x64/
+
+# Visual Studio Code
+.vscode/
+
+# C
+*.exe
+
+# Python
+__pycache__/
