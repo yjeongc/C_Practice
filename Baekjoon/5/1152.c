@@ -5,7 +5,7 @@ int main()
 {
     char S[100];
     int count = 0;
-    gets(S);
+    fgets(S, 100, stdin);
 
     for (int i = 0; S[i] != '\0'; i++ )
     {
