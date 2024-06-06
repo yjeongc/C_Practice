@@ -15,22 +15,24 @@ int main()
         }
     }
 
-    if (S[0] != ' ' && S[strlen(S)-1] != ' ')
+
+    if (S[0] != ' ' && S[strlen(S)-2] != ' ')
     {
         printf("%d", count+1);
     }
-    else if (S[0] == ' ' && S[strlen(S)-1] != ' ')
+    else if (S[0] == ' ' && S[strlen(S)-2] != ' ')
     {
         printf("%d", count);
     }
-    else if (S[0] != ' ' && S[strlen(S)-1] == ' ')
+    else if (S[0] != ' ' && S[strlen(S)-2] == ' ')
     {
         printf("%d", count);
     }
-    else if (S[0] == ' ' && S[strlen(S)-1] == ' ')
+    else if (S[0] == ' ' && S[strlen(S)-2] == ' ')
     {
         printf("%d", count-1);
     }
+
 
     return 0;
 }
